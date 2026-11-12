@@ -1,0 +1,2 @@
+# Northstar — SaaS Landing Page
+A premium, calm workspace SaaS concept. Features responsive marketing layout, dashboard preview, feature section and pricing CTA. Static HTML/CSS/JS; no backend or real subscription service.
