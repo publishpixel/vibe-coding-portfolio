@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#7541c8">
+<meta name="description" content="Glow Studio — a fictional beauty studio website concept demonstrating service discovery and appointment enquiries.">
+<title>Glow Studio — A little time for you</title>
+<link rel="stylesheet" href="../shared.css?v=20261112-purple">
+<style>
+:root{--glow:#f1dce8;--rose:#a84e78;--rose-dark:#71314f;--cream:#fbf7f4}
+body{background:var(--cream)}.glow-nav{background:#fffaf8e8}.glow-brand{color:#71314f}.glow-brand span{color:#b36a8d}
+.glow-hero{padding:85px 9vw 70px;background:linear-gradient(125deg,#f4e5ec 0%,#f7eee7 55%,#eee6f3 100%);position:relative;overflow:hidden}
+.glow-hero:after{content:"✳";position:absolute;right:9%;top:15%;font-size:clamp(120px,24vw,300px);color:#fff9;line-height:1;pointer-events:none}
+.glow-hero h1{font:650 clamp(64px,10vw,125px)/.9 Manrope;letter-spacing:-.09em;max-width:850px;margin:30px 0 25px;color:#382531}
+.glow-hero h1 em{font-family:Georgia,serif;font-weight:400;color:var(--rose)}
+.glow-hero .hero-copy{max-width:520px;color:#6f5965}
+.glow-kicker{color:var(--rose);font:10px 'DM Mono';letter-spacing:.13em}
+.glow-btn{background:var(--rose);border-color:var(--rose)}.glow-btn:hover{background:var(--rose-dark)}
+.glow-art{border-radius:28px;min-height:370px;background:radial-gradient(circle at 65% 32%,#fff8 0 10%,transparent 11%),linear-gradient(145deg,#d9a9bf,#8e5677 58%,#52354c);display:flex;align-items:end;padding:26px;color:white;position:relative;overflow:hidden}
+.glow-art:before{content:"";position:absolute;width:230px;height:230px;border:1px solid #ffffff70;border-radius:50%;right:8%;top:10%;box-shadow:0 0 0 24px #ffffff12,0 0 0 48px #ffffff0b}
+.glow-art strong{font:600 32px Manrope;letter-spacing:-.06em;position:relative}
+.service-card{overflow:hidden;padding:0}.service-card .service-top{padding:25px;background:linear-gradient(145deg,#f1dce8,#ead9e4);min-height:150px;display:flex;align-items:end;justify-content:space-between}.service-card:nth-child(2) .service-top{background:linear-gradient(145deg,#e7dbe9,#cdb7d3)}.service-card:nth-child(3) .service-top{background:linear-gradient(145deg,#f0e3d6,#d8bda9)}.service-card:nth-child(4) .service-top{background:linear-gradient(145deg,#e8e8d8,#c4c9ac)}
+.service-card .service-top span{font:10px 'DM Mono';letter-spacing:.1em;color:#62495b}.service-card .service-body{padding:22px}
+.glow-note{border:1px dashed #c998b1;background:#fff9fb;border-radius:16px;padding:18px;color:#785568;font-size:13px;line-height:1.7}
+.glow-form{background:#fff;border:1px solid #eadce4;border-radius:22px;padding:28px;box-shadow:var(--shadow)}
+.glow-form label{display:block;font-size:12px;font-weight:700;margin:13px 0 7px;color:#614456}.glow-form .field{width:100%;background:#fffafc;border-color:#eadce4}
+.glow-footer{background:#382531;color:#e9dce5;border-color:#5c4354}.glow-footer .brand{color:white}
+@media(max-width:650px){.glow-hero{padding:68px 7vw 55px}.glow-hero:after{right:-4%;top:10%;opacity:.5}.glow-art{min-height:260px}.glow-form{padding:20px}}
+</style>
+</head>
+<body>
+<nav class="topbar glow-nav"><a class="brand glow-brand" href="../">glow<span>.</span></a><div class="navlinks"><a href="#treatments">Treatments</a><a href="#studio">The studio</a><a href="#booking">Book</a><a class="nav-cta glow-btn" href="#booking">Request an appointment ↗</a></div></nav>
+<main>
+<section class="glow-hero">
+<div class="eyebrow glow-kicker"><i></i> FICTIONAL BEAUTY STUDIO CONCEPT · MELBOURNE</div>
+<h1>A little time<br>for <em>you.</em></h1>
+<p class="hero-copy">Thoughtful beauty treatments in a calm, welcoming space. Find the service that feels right, understand what to expect, and send an appointment request in a few simple steps.</p>
+<div class="hero-actions"><a class="button glow-btn" href="#treatments">Explore treatments ↓</a><a class="button secondary" style="border-color:var(--rose);color:var(--rose)" href="#studio">Meet the studio</a></div>
+<div class="grid-2" style="margin-top:55px;align-items:stretch"><div class="glow-art"><strong>Soft details.<br>Considered care.</strong></div><div class="panel" style="display:flex;flex-direction:column;justify-content:center;background:#fffafc;border-color:#eadce4"><span class="tag" style="background:#f6e8ef;color:#9b4d70">THE GLOW EXPERIENCE</span><h2 style="font:650 clamp(32px,4vw,48px)/1 Manrope;letter-spacing:-.07em;margin:20px 0 12px">Feel good in your own skin.</h2><p class="muted" style="line-height:1.8">A clear service menu, honest guidance and an easy way to ask questions before you book. No rush, no guesswork.</p><div class="stat-row" style="margin-top:18px"><div class="stat"><small>APPROACH</small><strong>Personal</strong></div><div class="stat"><small>EXPERIENCE</small><strong>Calm</strong></div></div></div></div>
+</section>
+<section class="section" id="treatments"><div class="section-heading"><div><span class="eyebrow glow-kicker">01 / TREATMENTS</span><h2>Find your feel-good.</h2></div><p>Illustrative service categories for this concept. Real services, pricing and treatment suitability would always be confirmed with the business.</p></div>
+<div class="grid-2">
+<article class="panel service-card"><div class="service-top"><span>01 / BROWS & LASHES</span><strong style="font-size:48px;color:#89536e">✳</strong></div><div class="service-body"><h3>Brows & lashes</h3><p class="muted">Thoughtful shaping, tinting and lash services designed around your preferred look.</p><a class="round-link" href="#booking">Ask about this service ↗</a></div></article>
+<article class="panel service-card"><div class="service-top"><span>02 / SKIN</span><strong style="font-size:48px;color:#795a83">◌</strong></div><div class="service-body"><h3>Skin rituals</h3><p class="muted">A considered facial experience with clear preparation and aftercare guidance.</p><a class="round-link" href="#booking">Ask about this service ↗</a></div></article>
+<article class="panel service-card"><div class="service-top"><span>03 / NAILS</span><strong style="font-size:48px;color:#a87559">◇</strong></div><div class="service-body"><h3>Nail care</h3><p class="muted">Simple, polished finishes and detailed designs, with service options explained upfront.</p><a class="round-link" href="#booking">Ask about this service ↗</a></div></article>
+<article class="panel service-card"><div class="service-top"><span>04 / SELF-CARE</span><strong style="font-size:48px;color:#68744d">☼</strong></div><div class="service-body"><h3>Little extras</h3><p class="muted">A few thoughtful add-ons to make your appointment feel like time well spent.</p><a class="round-link" href="#booking">Ask about this service ↗</a></div></article>
+</div></section>
+<section class="section tint" id="studio"><div class="split"><div><span class="eyebrow glow-kicker">02 / THE STUDIO</span><h2>Good care starts with a conversation.</h2><p class="muted" style="line-height:1.8">Not sure which treatment to choose? A good booking journey should help visitors understand the service, ask a question and know what happens next. This concept shows how a small studio can make those details easy to find.</p><ul class="list-check"><li>Clear treatment descriptions</li><li>Preparation and aftercare information</li><li>Location, hours and contact details</li><li>One simple enquiry path</li></ul></div><div class="visual-card" style="background:linear-gradient(145deg,#ead8e3,#c9b0c4);min-height:340px;display:flex;align-items:end"><div style="background:#fff9;padding:24px;border-radius:16px;max-width:300px"><span class="eyebrow glow-kicker">A NOTE FROM THE STUDIO</span><h3 style="font:650 27px Manrope;letter-spacing:-.06em;margin:12px 0">You can ask first.</h3><p class="muted" style="font-size:13px;line-height:1.7">A consultation or enquiry option helps first-time visitors feel confident before choosing a treatment.</p></div></div></div></section>
+<section class="section" id="booking"><div class="section-heading"><div><span class="eyebrow glow-kicker">03 / APPOINTMENT ENQUIRY</span><h2>Let's find a time.</h2></div><p>Choose a service and send a request. This is a demonstration form only; it does not submit or store personal information.</p></div>
+<div class="grid-2"><div class="glow-note"><strong>What happens next?</strong><p>In a real client build, this form could connect to the studio's existing booking provider or send a secure enquiry to the business inbox. The final route would be chosen with the owner.</p><p>Appointment availability, deposit terms and cancellation policies should be confirmed before a booking is accepted.</p></div>
+<form class="glow-form" id="bookingForm"><span class="tag" style="background:#f6e8ef;color:#9b4d70">DEMO ENQUIRY</span><h3 style="font:650 28px Manrope;letter-spacing:-.06em;margin:14px 0">Request an appointment</h3>
+<label for="guestName">Your name</label><input class="field" id="guestName" name="name" required placeholder="Name">
+<label for="guestEmail">Email address</label><input class="field" id="guestEmail" name="email" type="email" required placeholder="you@example.com">
+<label for="service">What are you interested in?</label><select class="field" id="service" required><option value="">Choose a service</option><option>Brows & lashes</option><option>Skin rituals</option><option>Nail care</option><option>Little extras</option><option>Not sure yet — I'd like advice</option></select>
+<label for="preferredDate">Preferred date</label><input class="field" id="preferredDate" type="date">
+<label for="message">Anything else we should know?</label><textarea class="field" id="message" rows="3" placeholder="Share a question or preferred time..."></textarea>
+<button class="button glow-btn" type="submit" style="margin-top:18px;width:100%">Preview enquiry ↗</button><p class="notice" id="formNotice" aria-live="polite"></p>
+</form></div></section>
+<section class="section tint"><div class="section-heading"><div><span class="eyebrow glow-kicker">GOOD TO KNOW</span><h2>A few helpful details.</h2></div></div><details><summary>Can I book a specific treatment?</summary><p>In a live version, each service would link to the correct appointment type or enquiry path. This concept does not have live availability.</p></details><details><summary>Where can I find prices?</summary><p>A production website should show confirmed service prices or clearly explain when a consultation is needed for a quote.</p></details><details><summary>Can I message the studio first?</summary><p>Yes. A real implementation can offer email, phone or the business's preferred messaging channel, with the owner's consent.</p></details></section>
+</main>
+<footer class="glow-footer"><a class="brand" href="../">P<span>P</span>.</a><span>GLOW STUDIO — FICTIONAL CONCEPT 06</span><a style="color:#e5c5d5" href="../">Back to Publish Pixel ↗</a></footer>
+<script>
+document.getElementById('bookingForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('formNotice').textContent='Demo only — no enquiry was sent and no details were saved.';});
+</script>
+</body></html>
