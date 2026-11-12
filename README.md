@@ -1,6 +1,6 @@
 # Publish Pixel — Website Concept Portfolio
 
-Six responsive, AI-assisted frontend concepts built and reviewed by Publish Pixel. The projects demonstrate layout, visual direction and selected browser interactions.
+Eight responsive, AI-assisted frontend concepts built and reviewed by Publish Pixel. The projects demonstrate layout, visual direction and selected browser interactions.
 
 ## Projects
 
@@ -11,6 +11,8 @@ Six responsive, AI-assisted frontend concepts built and reviewed by Publish Pixe
 | 03 | [Pulse](./03-pulse-fitness/) | Fitness and wellness dashboard | HTML, CSS, JavaScript |
 | 04 | [Goods](./04-goods-commerce/) | E-commerce storefront concept | HTML, CSS, JavaScript |
 | 05 | [Orbit](./05-orbit-productivity/) | Personal productivity workspace | HTML, CSS, JavaScript |\n| 06 | [Glow Studio](./06-glow-studio/) | Beauty studio with appointment enquiry demo | HTML, CSS, JavaScript |
+| 07 | [CleanSpace](./07-cleanspace/) | Home cleaning services with quote request demo | HTML, CSS, JavaScript |
+| 08 | [Paw & Pine](./08-paw-and-pine/) | Pet grooming with visit enquiry demo | HTML, CSS, JavaScript |
 
 ## Important demo note
 
