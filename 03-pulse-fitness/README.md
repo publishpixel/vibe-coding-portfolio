@@ -1,0 +1,2 @@
+# Pulse — Fitness Dashboard
+Dark wellness dashboard concept with readiness, activity summary, weekly visual and interactive action buttons. Demo metrics are illustrative, not connected to health devices.
